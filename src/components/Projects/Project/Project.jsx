@@ -4,7 +4,7 @@ import "./Project.css";
 function Project(props) {
   return (
     <div className='project'>
-      <img src={props.img} alt='project-img' />
+      <img src={props.img} alt='project-img' className='project-img' />
       <div className='project-text'>
         <p>{props.title}</p>
         <a target='_blank' rel='noreferrer' href={props.deployment}>
