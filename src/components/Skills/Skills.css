@@ -1,0 +1,85 @@
+.skills {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills-header {
+  color: white;
+  margin-top: 50px;
+}
+
+.skills-container {
+  height: 100%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-icon {
+  color: white;
+  font-size: 5rem;
+  transition: all 0.3s ease-out;
+}
+
+.skill-icon:hover {
+  transform: scale(1.3);
+}
+
+.react-icon {
+  animation: rotation 20s linear infinite;
+  color: #5ed3f3;
+}
+
+.css-icon {
+  color: #254bdf;
+}
+
+.html-icon {
+  color: #e86229;
+}
+
+.firebase-icon {
+  color: #ffcb2b;
+}
+
+.node-icon {
+  color: #87bf00;
+}
+
+.js-icon {
+  color: #d3b32b;
+}
+
+.sass-icon {
+  color: #cf649a;
+}
+
+.mongo-icon {
+  color: #10aa50;
+}
+
+.java-icon {
+  color: #e51f24;
+}
+
+.row {
+  margin: 20px 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

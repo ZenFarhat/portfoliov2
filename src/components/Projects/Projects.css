@@ -1,0 +1,26 @@
+.projects {
+  display: flex;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-card {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.projects-card-text {
+  text-align: center;
+  padding: 20px;
+}
+
+.projects-card p {
+  color: black;
+  margin: 10px 0;
+}
