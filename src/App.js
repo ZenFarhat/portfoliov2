@@ -13,19 +13,19 @@ function App() {
       <div className='app'>
         <Nav />
         <Switch>
-          <Route path='/about'>
+          <Route path='/portfoliov2/about'>
             <About />
           </Route>
-          <Route path='/skills'>
+          <Route path='/portfoliov2/skills'>
             <Skills />
           </Route>
-          <Route path='/projects'>
+          <Route path='/portfoliov2/projects'>
             <Projects />
           </Route>
-          <Route path='/contact'>
+          <Route path='/portfoliov2/contact'>
             <Contact />
           </Route>
-          <Route path='/'>
+          <Route path='/portfoliov2/'>
             <Home />
           </Route>
         </Switch>

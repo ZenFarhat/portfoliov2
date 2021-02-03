@@ -10,19 +10,19 @@ import ContactMailOutlinedIcon from "@material-ui/icons/ContactMailOutlined";
 function Nav() {
   return (
     <nav>
-      <Link className='link' to='/'>
+      <Link className='link' to='/portfoliov2/'>
         <HomeOutlinedIcon fontSize='large' className='nav-icon' />
       </Link>
-      <Link className='link' to='/about'>
+      <Link className='link' to='/portfoliov2/about'>
         <AccountCircleOutlinedIcon fontSize='large' className='nav-icon' />
       </Link>
-      <Link className='link' to='/skills'>
+      <Link className='link' to='/portfoliov2/skills'>
         <BuildOutlinedIcon fontSize='large' className='nav-icon' />
       </Link>
-      <Link className='link' to='/projects'>
+      <Link className='link' to='/portfoliov2/projects'>
         <CodeOutlinedIcon fontSize='large' className='nav-icon' />
       </Link>
-      <Link className='link' to='/contact'>
+      <Link className='link' to='/portfoliov2/contact'>
         <ContactMailOutlinedIcon fontSize='large' className='nav-icon' />
       </Link>
     </nav>
