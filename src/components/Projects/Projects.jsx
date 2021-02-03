@@ -19,7 +19,7 @@ function Projects() {
         title='Tesla clone'
         img={TeslaProject}
         deployment='https://tesla-clone-7faa4.web.app/'
-        codeLink=''
+        codeLink='https://github.com/ZenFarhat/tesla-clone'
       />
       <Project
         title='Portfolio V1'

@@ -34,3 +34,29 @@
   font-size: 5rem;
   color: orange;
 }
+
+@media only screen and (max-width: 500px) {
+  .about {
+    margin-left: 10vh;
+    height: 100vh;
+    padding: 1rem;
+  }
+  .about__container {
+    height: fit-content;
+    width: 95%;
+    padding: 0.5rem;
+    border-radius: 5%;
+  }
+
+  .about__text {
+    line-height: 2;
+  }
+  .hobby-icon {
+    font-size: 2rem;
+    color: orange;
+  }
+
+  .about__icons {
+    margin: 20px 0;
+  }
+}

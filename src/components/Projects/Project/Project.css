@@ -61,3 +61,32 @@ button:hover {
     #f12711
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+@media only screen and (max-width: 500px) {
+  .project {
+    margin: 20px 5px;
+    width: 250px;
+    height: fit-content;
+    background-color: #1a1a1a;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    border: 1px solid black;
+    transition: transform 0.3s ease-out;
+    padding: 0.5rem;
+  }
+
+  .project-img {
+    width: 100%;
+  }
+
+  button {
+    margin: 10px 0;
+  }
+
+  .project p {
+    margin-top: 10px;
+  }
+}
