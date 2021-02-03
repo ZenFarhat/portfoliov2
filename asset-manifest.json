@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfoliov2/static/css/main.6d51f5cd.chunk.css",
+    "main.js": "/portfoliov2/static/js/main.9f0f65b5.chunk.js",
+    "main.js.map": "/portfoliov2/static/js/main.9f0f65b5.chunk.js.map",
+    "runtime-main.js": "/portfoliov2/static/js/runtime-main.16457bcd.js",
+    "runtime-main.js.map": "/portfoliov2/static/js/runtime-main.16457bcd.js.map",
+    "static/js/2.e7a22ff4.chunk.js": "/portfoliov2/static/js/2.e7a22ff4.chunk.js",
+    "static/js/2.e7a22ff4.chunk.js.map": "/portfoliov2/static/js/2.e7a22ff4.chunk.js.map",
+    "static/js/3.db5d08d8.chunk.js": "/portfoliov2/static/js/3.db5d08d8.chunk.js",
+    "static/js/3.db5d08d8.chunk.js.map": "/portfoliov2/static/js/3.db5d08d8.chunk.js.map",
+    "index.html": "/portfoliov2/index.html",
+    "static/css/main.6d51f5cd.chunk.css.map": "/portfoliov2/static/css/main.6d51f5cd.chunk.css.map",
+    "static/js/2.e7a22ff4.chunk.js.LICENSE.txt": "/portfoliov2/static/js/2.e7a22ff4.chunk.js.LICENSE.txt",
+    "static/media/portfoliov1.c40214f6.JPG": "/portfoliov2/static/media/portfoliov1.c40214f6.JPG",
+    "static/media/tesla-project.da42b00e.jpg": "/portfoliov2/static/media/tesla-project.da42b00e.jpg",
+    "static/media/zresorts.918e87ef.jpg": "/portfoliov2/static/media/zresorts.918e87ef.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.16457bcd.js",
+    "static/js/2.e7a22ff4.chunk.js",
+    "static/css/main.6d51f5cd.chunk.css",
+    "static/js/main.9f0f65b5.chunk.js"
+  ]
+}
