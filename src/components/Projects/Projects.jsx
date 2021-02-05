@@ -28,9 +28,9 @@ function Projects() {
         codeLink='https://github.com/ZenFarhat/portfoliowebsite'
       />
       <Project
-        title='Resort Website'
+        title='Resort Website (WIP)'
         img={ResortProject}
-        deployment=''
+        deployment='https://resort-ws.web.app/'
         codeLink='https://github.com/ZenFarhat/resort-website'
       />
     </div>
