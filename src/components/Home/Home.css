@@ -8,6 +8,11 @@
   color: white;
 }
 
+.home a {
+  color: white;
+  text-decoration: none;
+}
+
 .home__header {
   font-size: 10rem;
 }
@@ -23,6 +28,10 @@
   align-items: center;
 }
 
+.home-icon {
+  transition: all 0.3s ease-out;
+}
+
 .contact__button {
   width: 15%;
   padding: 2rem;
@@ -33,7 +42,7 @@
   background-color: transparent;
   color: white;
   cursor: pointer;
-  transition: background 1s ease-in-out;
+  transition: background 1s ease-out;
 }
 
 .contact__button:focus {
@@ -58,7 +67,6 @@
   cursor: pointer;
   color: orange;
   transform: scale(1.5);
-  transition: 0.3s ease-in-out;
 }
 
 @media only screen and (max-width: 500px) {

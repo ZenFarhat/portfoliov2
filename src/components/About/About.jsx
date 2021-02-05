@@ -21,9 +21,9 @@ function About() {
         <div className='about__text'>
           <p>
             Hello, I'm Zen. <br /> I am a self-taught Web Dev. Please feel free
-            to take a look at my projects page, I am mostly self-taught and I'm
-            currently doing a Bachelor degree in IT. My hobbies include playing
-            the guitar, web dev, fishing & gaming.
+            to take a look at my projects page, I am currently doing a Bachelor
+            degree in IT. My hobbies include playing the guitar, web dev,
+            fishing & gaming.
           </p>
         </div>
         <div className='about__icons'>
