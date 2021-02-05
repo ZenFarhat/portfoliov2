@@ -6,14 +6,20 @@ function Contact() {
     <div className='contact'>
       <div className='form-container'>
         <h1>Contact me</h1>
-        <form action=''>
+        <form
+          action='mailto:zeinfarhat6@gmail.com'
+          method='post'
+          enctype='text/plain'
+        >
           <input
             type='text'
             className='form-input'
             required
             placeholder='Name'
+            name='name'
           />
           <input
+            name='email'
             type='email'
             className='form-input'
             required
