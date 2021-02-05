@@ -39,6 +39,10 @@ form {
   font-family: inherit;
 }
 
+.form-textarea {
+  resize: none;
+}
+
 .form-input {
   height: 50px;
   border: none;

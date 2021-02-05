@@ -33,7 +33,7 @@
 }
 
 .contact__button {
-  width: 15%;
+  width: 275px;
   padding: 2rem;
   font-size: 2rem;
   font-family: inherit;
@@ -43,6 +43,10 @@
   color: white;
   cursor: pointer;
   transition: background 1s ease-out;
+}
+
+a {
+  all: none;
 }
 
 .contact__button:focus {
