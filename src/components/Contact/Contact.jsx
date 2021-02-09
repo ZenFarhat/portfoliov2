@@ -7,7 +7,7 @@ function Contact() {
       <div className='form-container'>
         <h1>Contact me</h1>
         <form
-          action='mailto:zeinfarhat6@gmail.com'
+          action='https://mailto:zeinfarhat6@gmail.com'
           method='post'
           enctype='text/plain'
         >
