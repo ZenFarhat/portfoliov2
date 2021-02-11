@@ -21,6 +21,12 @@ nav {
 
 .link {
   color: white;
+  box-sizing: border-box;
+}
+
+.nav__selected {
+  color: orange;
+  border-bottom: 3px solid orange;
 }
 
 @media only screen and (max-width: 500px) {

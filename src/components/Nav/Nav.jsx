@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Nav.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  NavLink,
+} from "react-router-dom";
 import HomeOutlinedIcon from "@material-ui/icons/HomeOutlined";
 import AccountCircleOutlinedIcon from "@material-ui/icons/AccountCircleOutlined";
 import BuildOutlinedIcon from "@material-ui/icons/BuildOutlined";
@@ -8,23 +13,33 @@ import CodeOutlinedIcon from "@material-ui/icons/CodeOutlined";
 import ContactMailOutlinedIcon from "@material-ui/icons/ContactMailOutlined";
 
 function Nav() {
+  const [active, setActive] = useState("active");
+
   return (
     <nav>
-      <Link className='link' to='/'>
-        <HomeOutlinedIcon fontSize='large' className='nav-icon' />
-      </Link>
-      <Link className='link' to='/about'>
+      <NavLink
+        className='link'
+        activeClassName='nav__selected'
+        to='/'
+        exact={true}
+      >
+        <HomeOutlinedIcon
+          fontSize='large'
+          className={`nav-icon` + { active }}
+        />
+      </NavLink>
+      <NavLink className='link' activeClassName='nav__selected' to='/about'>
         <AccountCircleOutlinedIcon fontSize='large' className='nav-icon' />
-      </Link>
-      <Link className='link' to='/skills'>
+      </NavLink>
+      <NavLink className='link' activeClassName='nav__selected' to='/skills'>
         <BuildOutlinedIcon fontSize='large' className='nav-icon' />
-      </Link>
-      <Link className='link' to='/projects'>
+      </NavLink>
+      <NavLink className='link' activeClassName='nav__selected' to='/projects'>
         <CodeOutlinedIcon fontSize='large' className='nav-icon' />
-      </Link>
-      <Link className='link' to='/contact'>
+      </NavLink>
+      <NavLink className='link' activeClassName='nav__selected' to='/contact'>
         <ContactMailOutlinedIcon fontSize='large' className='nav-icon' />
-      </Link>
+      </NavLink>
     </nav>
   );
 }
