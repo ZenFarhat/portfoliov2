@@ -23,10 +23,7 @@ function Nav() {
         to='/'
         exact={true}
       >
-        <HomeOutlinedIcon
-          fontSize='large'
-          className={`nav-icon` + { active }}
-        />
+        <HomeOutlinedIcon fontSize='large' className='nav-icon' />
       </NavLink>
       <NavLink className='link' activeClassName='nav__selected' to='/about'>
         <AccountCircleOutlinedIcon fontSize='large' className='nav-icon' />
