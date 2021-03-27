@@ -1,2 +1,3 @@
-# Portfolio v2 - WIP
-# https://zenfarhat.github.io/portfoliov2
+# This is my current portfolio
+
+Built using react :thumbsup:

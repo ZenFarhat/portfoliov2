@@ -4,6 +4,7 @@ import "./Projects.css";
 import TeslaProject from "../../Images/tesla-project.jpg";
 import AmazonProject from "../../Images/amazon-project.png";
 import Portfoliov1 from "../../Images/portfoliov1.JPG";
+import movieProject from "../../Images/movieproject.JPG";
 
 function Projects() {
   return (
@@ -19,6 +20,12 @@ function Projects() {
         img={TeslaProject}
         deployment='https://tesla-clone-7faa4.web.app/'
         codeLink='https://github.com/ZenFarhat/tesla-clone'
+      />
+      <Project
+        title='ReviewTube'
+        img={movieProject}
+        deployment='https://reviewtube-867da.web.app/'
+        codeLink='https://github.com/ZenFarhat/reviewTube'
       />
       <Project
         title='Portfolio V1'
