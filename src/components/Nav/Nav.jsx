@@ -13,8 +13,6 @@ import CodeOutlinedIcon from "@material-ui/icons/CodeOutlined";
 import ContactMailOutlinedIcon from "@material-ui/icons/ContactMailOutlined";
 
 function Nav() {
-  const [active, setActive] = useState("active");
-
   return (
     <nav>
       <NavLink
@@ -25,15 +23,16 @@ function Nav() {
       >
         <HomeOutlinedIcon fontSize='large' className='nav-icon' />
       </NavLink>
-      <NavLink className='link' activeClassName='nav__selected' to='/about'>
-        <AccountCircleOutlinedIcon fontSize='large' className='nav-icon' />
+      <NavLink className='link' activeClassName='nav__selected' to='/projects'>
+        <CodeOutlinedIcon fontSize='large' className='nav-icon' />
       </NavLink>
       <NavLink className='link' activeClassName='nav__selected' to='/skills'>
         <BuildOutlinedIcon fontSize='large' className='nav-icon' />
       </NavLink>
-      <NavLink className='link' activeClassName='nav__selected' to='/projects'>
-        <CodeOutlinedIcon fontSize='large' className='nav-icon' />
+      <NavLink className='link' activeClassName='nav__selected' to='/about'>
+        <AccountCircleOutlinedIcon fontSize='large' className='nav-icon' />
       </NavLink>
+
       <NavLink className='link' activeClassName='nav__selected' to='/contact'>
         <ContactMailOutlinedIcon fontSize='large' className='nav-icon' />
       </NavLink>

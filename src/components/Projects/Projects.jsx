@@ -15,30 +15,35 @@ function Projects() {
         img={AmazonProject}
         deployment='https://challenge-f061e.web.app/'
         codeLink='https://github.com/ZenFarhat/amazon-clone'
+        desc='Mobile responsive Amazon clone with a cart system'
       />
       <Project
         title='Tesla clone'
         img={TeslaProject}
         deployment='https://tesla-clone-7faa4.web.app/'
         codeLink='https://github.com/ZenFarhat/tesla-clone'
+        desc='Mobile responsive Tesla front-end I recreated, I will revisit and polish this project in the future'
       />
       <Project
         title='ReviewTube'
         img={movieProject}
         deployment='https://reviewtube-867da.web.app/'
         codeLink='https://github.com/ZenFarhat/reviewTube'
+        desc='Simple movie app that handles API calls & Searches'
       />
       <Project
         title='TravelCo'
         img={travelWebsite}
         deployment='https://travelcozenf.web.app/'
         codeLink='https://github.com/ZenFarhat/TravelCo'
+        desc='Front-end for a travel agency website'
       />
       <Project
         title='Portfolio V1'
         img={Portfoliov1}
         deployment='https://zenfarhat.github.io/portfoliowebsite/'
         codeLink='https://github.com/ZenFarhat/portfoliowebsite'
+        desc='First static page portfolio I hosted on gitHub pages'
       />
     </div>
   );

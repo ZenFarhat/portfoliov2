@@ -1,22 +1,17 @@
 .project {
-  margin: 10px;
-  width: 500px;
+  width: 350px;
   height: 250px;
   background-color: #1a1a1a;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  border-radius: 20px;
+  border-radius: 23px;
   border: 1px solid black;
-  transition: transform 0.3s ease-out;
-  padding: 0.5rem;
-}
-
-.project-img {
-  width: 250px;
-  border-radius: 20px;
-  flex: 1;
+  transition: 0.3s;
+  background-position: center;
+  background-size: cover;
+  margin: 10px;
 }
 
 .project p {
@@ -26,29 +21,50 @@
 
 .project-text {
   height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  padding: 0.5rem;
+  background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex: 1;
   justify-content: space-evenly;
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
-button {
+.project-desc {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.project-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project-text:hover {
+  opacity: 0.95;
+}
+
+.project-button {
   width: 140px;
   padding: 5px;
   font-size: 1rem;
   background: none;
   color: white;
-  border: 2px solid white;
+  border: 1px solid white;
   border-radius: 10px;
   cursor: pointer;
 }
 
-button:focus {
+.project-button:focus {
   outline: none;
 }
 
-button:hover {
+.project-button:hover {
   background: #f12711; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to left,
@@ -64,26 +80,33 @@ button:hover {
 
 @media only screen and (max-width: 630px) {
   .project {
-    margin: 20px 5px;
-    width: 250px;
-    height: fit-content;
-    background-color: #1a1a1a;
-
+    margin: 25px 0;
+    width: 275px;
+    height: 300px;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    border-radius: 20px;
-    border: 1px solid black;
+    border: 2px solid white;
     transition: transform 0.3s ease-out;
-    padding: 0.5rem;
   }
 
-  .project-img {
-    max-height: 100px;
-    object-fit: contain;
+  .project-text {
+    opacity: 0.9;
   }
 
-  button {
+  .project-desc {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .project-buttons {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-button {
+    width: 200px;
     margin: 10px 0;
   }
 

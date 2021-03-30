@@ -47,6 +47,24 @@ form {
   border: none;
 }
 
+.form-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border: none;
+  transition: 0.3s;
+}
+
+.form-button:hover {
+  cursor: pointer;
+  background-color: orange;
+}
+
+.form-button:active {
+  transform: scale(0.98);
+}
+
 .form-input:focus,
 .form-button:focus,
 .form-textarea:focus {
