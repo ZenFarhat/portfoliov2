@@ -37,22 +37,22 @@ function Contact() {
             type='text'
             className='form-input'
             required
-            placeholder='Name'
+            placeholder='Name..'
             name='from_name'
           />
           <input
             name='_replyto'
-            type='user_email'
+            type='email'
             className='form-input'
             required
-            placeholder='Email'
+            placeholder='Email..'
           />
           <textarea
             name='message'
             cols='30'
             className='form-textarea'
             rows='10'
-            placeholder='Your message'
+            placeholder='Your message..'
           ></textarea>
           <button className='form-button' type='submit' value='Send'>
             Send message
