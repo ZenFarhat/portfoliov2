@@ -32,8 +32,8 @@
 }
 
 .react-icon {
-  animation: rotation 20s linear infinite;
   color: #5ed3f3;
+  animation: rotation 20s linear infinite;
 }
 
 .css-icon {
