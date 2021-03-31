@@ -32,7 +32,6 @@ function Nav() {
       <NavLink className='link' activeClassName='nav__selected' to='/about'>
         <AccountCircleOutlinedIcon fontSize='large' className='nav-icon' />
       </NavLink>
-
       <NavLink className='link' activeClassName='nav__selected' to='/contact'>
         <ContactMailOutlinedIcon fontSize='large' className='nav-icon' />
       </NavLink>

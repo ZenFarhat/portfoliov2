@@ -26,6 +26,12 @@
   margin: 10px 0;
 }
 
+.projectsText {
+  text-align: center;
+  line-height: 2;
+  padding: 0.5rem;
+}
+
 @media only screen and (max-width: 500px) {
   .projects {
     margin-left: 10vh;

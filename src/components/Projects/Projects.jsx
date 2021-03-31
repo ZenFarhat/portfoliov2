@@ -45,6 +45,9 @@ function Projects() {
         codeLink='https://github.com/ZenFarhat/portfoliowebsite'
         desc='First static page portfolio I hosted on gitHub pages'
       />
+      <div className='projectsText project'>
+        <h1>More coming soon...</h1>
+      </div>
     </div>
   );
 }
