@@ -6,6 +6,7 @@ import AmazonProject from "../../Images/amazon-project.png";
 import Portfoliov1 from "../../Images/portfoliov1.JPG";
 import movieProject from "../../Images/movieproject.JPG";
 import travelWebsite from "../../Images/travelco.JPG";
+import realEstateProject from "../../Images/realestate-project.JPG";
 
 function Projects() {
   return (
@@ -39,12 +40,20 @@ function Projects() {
         desc='Front-end for a travel agency website'
       />
       <Project
+        title='Real Estate Website'
+        img={realEstateProject}
+        desc='Work in progress'
+        deployment='https://realestatezf.web.app/'
+        codeLink='https://github.com/ZenFarhat/realestate-project'
+      />
+      <Project
         title='Portfolio V1'
         img={Portfoliov1}
         deployment='https://zenfarhat.github.io/portfoliowebsite/'
         codeLink='https://github.com/ZenFarhat/portfoliowebsite'
         desc='First static page portfolio I hosted on gitHub pages'
       />
+
       <div className='projectsText project'>
         <h1>More coming soon...</h1>
       </div>
