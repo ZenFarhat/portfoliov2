@@ -20,13 +20,13 @@ function About() {
       <div className='about__container'>
         <div className='about__text'>
           <p>
-            Hello, I'm Zen. <br /> I'm a dedicated & motivated Web Developer
-            known for designing, developing, and delivering custom web
-            applications and software solutions. I currently apply my MERN stack
-            knowledge and front-end/back-end tools in diverse website
-            development projects. I am extremely open to learning new
-            technologies as I have a strong interest in programming. My hobbies
-            include playing the guitar, web dev, fishing & gaming.
+            Dedicated & motivated Web Developer, <br /> known for designing,
+            developing, and delivering custom web applications and software
+            solutions. I currently apply my MERN stack knowledge and
+            front-end/back-end tools in diverse website development projects. I
+            am extremely open to learning new technologies as I have a strong
+            interest in programming. My hobbies include playing the guitar, web
+            dev, fishing & gaming.
           </p>
         </div>
         <div className='about__icons'>
