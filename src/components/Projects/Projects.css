@@ -32,8 +32,16 @@
   padding: 0.5rem;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 918px) {
   .projects {
     margin-left: 10vh;
+  }
+
+  .projects-card {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    flex: 100%;
   }
 }

@@ -72,7 +72,7 @@ a {
   color: orange;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 580px) {
   .home {
     margin-left: 10vh;
   }
