@@ -23,7 +23,7 @@ function Projects() {
         img={TeslaProject}
         deployment='https://tesla-clone-7faa4.web.app/'
         codeLink='https://github.com/ZenFarhat/tesla-clone'
-        desc='Mobile responsive Tesla front-end I recreated, I will revisit and polish this project in the future'
+        desc='Mobile responsive Tesla front-end'
       />
       <Project
         title='ReviewTube'
@@ -42,7 +42,7 @@ function Projects() {
       <Project
         title='Real Estate Website'
         img={realEstateProject}
-        desc='Work in progress'
+        desc='Front end for a real estate agency, implementing back-end soon'
         deployment='https://realestatezf.web.app/'
         codeLink='https://github.com/ZenFarhat/realestate-project'
       />
@@ -55,7 +55,7 @@ function Projects() {
       />
 
       <div className='projectsText project'>
-        <h1>More coming soon...</h1>
+        <h1>More on the way...</h1>
       </div>
     </div>
   );
