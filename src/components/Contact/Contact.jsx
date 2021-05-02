@@ -29,36 +29,36 @@ function Contact() {
       );
   }
   return (
-    <div className='contact'>
-      <div className='form-container'>
+    <div className="contact">
+      <div className="form-container">
         <h1>Contact me</h1>
         <form onSubmit={sendEmail}>
           <input
-            type='text'
-            className='form-input'
+            type="text"
+            className="form-input"
             required
-            placeholder='Name..'
-            name='from_name'
+            placeholder="Name.."
+            name="from_name"
           />
           <input
-            name='_replyto'
-            type='email'
-            className='form-input'
+            name="_replyto"
+            type="email"
+            className="form-input"
             required
-            placeholder='Email..'
+            placeholder="Email.."
           />
           <textarea
-            name='message'
-            cols='30'
-            className='form-textarea'
-            rows='10'
-            placeholder='Your message..'
+            name="message"
+            cols="30"
+            className="form-textarea"
+            rows="10"
+            placeholder="Your message.."
           ></textarea>
-          <button className='form-button' type='submit' value='Send'>
+          <button className="form-button" type="submit" value="Send">
             Send message
           </button>
         </form>
-        <div className='contact-icons'></div>
+        <div className="contact-icons"></div>
       </div>
     </div>
   );

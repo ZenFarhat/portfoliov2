@@ -16,24 +16,24 @@ function Nav() {
   return (
     <nav>
       <NavLink
-        className='link'
-        activeClassName='nav__selected'
-        to='/'
+        className="link"
+        activeClassName="nav__selected"
+        to="/"
         exact={true}
       >
-        <HomeOutlinedIcon fontSize='large' className='nav-icon' />
+        <HomeOutlinedIcon fontSize="large" className="nav-icon" />
       </NavLink>
-      <NavLink className='link' activeClassName='nav__selected' to='/projects'>
-        <CodeOutlinedIcon fontSize='large' className='nav-icon' />
+      <NavLink className="link" activeClassName="nav__selected" to="/projects">
+        <CodeOutlinedIcon fontSize="large" className="nav-icon" />
       </NavLink>
-      <NavLink className='link' activeClassName='nav__selected' to='/skills'>
-        <BuildOutlinedIcon fontSize='large' className='nav-icon' />
+      <NavLink className="link" activeClassName="nav__selected" to="/skills">
+        <BuildOutlinedIcon fontSize="large" className="nav-icon" />
       </NavLink>
-      <NavLink className='link' activeClassName='nav__selected' to='/about'>
-        <AccountCircleOutlinedIcon fontSize='large' className='nav-icon' />
+      <NavLink className="link" activeClassName="nav__selected" to="/about">
+        <AccountCircleOutlinedIcon fontSize="large" className="nav-icon" />
       </NavLink>
-      <NavLink className='link' activeClassName='nav__selected' to='/contact'>
-        <ContactMailOutlinedIcon fontSize='large' className='nav-icon' />
+      <NavLink className="link" activeClassName="nav__selected" to="/contact">
+        <ContactMailOutlinedIcon fontSize="large" className="nav-icon" />
       </NavLink>
     </nav>
   );

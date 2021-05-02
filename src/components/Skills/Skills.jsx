@@ -13,28 +13,28 @@ import { SiFirebase } from "react-icons/si";
 
 function Skills() {
   return (
-    <div className='skills'>
-      <h1 className='skills-header'>What do I bring you?</h1>
-      <div className='skills-container'>
-        <div className='row__1 row'>
-          <FaReact className='skill-icon react-icon' />
+    <div className="skills">
+      <h1 className="skills-header">What do I bring you?</h1>
+      <div className="skills-container">
+        <div className="row__1 row">
+          <FaReact className="skill-icon react-icon" />
         </div>
-        <div className='row__2 row'>
-          <FaCss3Alt className='skill-icon css-icon' />
-          <AiFillHtml5 className='skill-icon html-icon' />
+        <div className="row__2 row">
+          <FaCss3Alt className="skill-icon css-icon" />
+          <AiFillHtml5 className="skill-icon html-icon" />
         </div>
-        <div className='row__3 row'>
-          <SiFirebase className='skill-icon firebase-icon' />
-          <SiJavascript className='skill-icon js-icon' />
-          <FaNodeJs className='skill-icon node-icon' />
-          <FaSass className='skill-icon sass-icon' />
+        <div className="row__3 row">
+          <SiFirebase className="skill-icon firebase-icon" />
+          <SiJavascript className="skill-icon js-icon" />
+          <FaNodeJs className="skill-icon node-icon" />
+          <FaSass className="skill-icon sass-icon" />
         </div>
-        <div className='row__4 row'>
-          <FaGithub className='skill-icon github-icon' />
-          <DiMongodb className='skill-icon mongo-icon' />
+        <div className="row__4 row">
+          <FaGithub className="skill-icon github-icon" />
+          <DiMongodb className="skill-icon mongo-icon" />
         </div>
-        <div className='row__5 row'>
-          <FaJava className='skill-icon java-icon' />
+        <div className="row__5 row">
+          <FaJava className="skill-icon java-icon" />
         </div>
       </div>
     </div>
