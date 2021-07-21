@@ -13,7 +13,7 @@ function App() {
     <Router>
       <div className='app'>
         <Nav />
-        <AnimatePresence>
+        <AnimatePresence exitBeforeEnter>
           <Switch>
             <Route path='/about'>
               <About />
