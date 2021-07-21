@@ -1,10 +1,33 @@
 import React from 'react'
 import emailjs from 'emailjs-com'
 import { motion } from 'framer-motion'
+import { useState } from 'react'
 
 import './Contact.css'
 
 function Contact() {
+  const [sent, setSent] = useState()
+
+  const messageSent = (status) => {
+    if (status === 'error') {
+      setSent(
+        <p className='contact-error'>
+          Something went wrong sending your message
+        </p>
+      )
+    } else {
+      setSent(
+        <p className='contact-success'>
+          Your message has been sent! I will get back to you ASAP.
+        </p>
+      )
+    }
+  }
+
+  const clearForm = () => {
+    document.getElementById('email-form').reset()
+  }
+
   function sendEmail(e) {
     e.preventDefault()
 
@@ -17,18 +40,18 @@ function Contact() {
       )
       .then(
         (result) => {
-          console.log(result.text)
-          window.location.reload()
-          alert(
-            'Thank you for your message, I will get back to you as soon as I can'
-          )
+          console.log(result)
+          clearForm()
+          messageSent()
         },
         (error) => {
           console.log(error.text)
-          alert('Error sending your message')
+          clearForm()
+          messageSent('error')
         }
       )
   }
+
   return (
     <motion.div
       exit={{ opacity: 0 }}
@@ -38,7 +61,7 @@ function Contact() {
     >
       <div className='form-container'>
         <h1>Contact me</h1>
-        <form onSubmit={sendEmail}>
+        <form onSubmit={sendEmail} id='email-form'>
           <input
             type='text'
             className='form-input'
@@ -64,7 +87,7 @@ function Contact() {
             Send message
           </button>
         </form>
-        <div className='contact-icons'></div>
+        <p>{sent}</p>
       </div>
     </motion.div>
   )

@@ -71,6 +71,20 @@ form {
   outline: none;
 }
 
+.contact-error {
+  color: red;
+  border: 1px solid red;
+  padding: 2px 10px;
+  border-radius: 20px;
+}
+
+.contact-success {
+  color: green;
+  border: 1px solid green;
+  padding: 2px 10px;
+  border-radius: 20px;
+}
+
 @media only screen and (max-width: 790px) {
   .contact {
     margin-left: 10vh;
