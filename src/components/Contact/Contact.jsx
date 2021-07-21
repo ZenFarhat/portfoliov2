@@ -1,67 +1,73 @@
-import React from "react";
-import emailjs from "emailjs-com";
+import React from 'react'
+import emailjs from 'emailjs-com'
+import { motion } from 'framer-motion'
 
-import "./Contact.css";
+import './Contact.css'
 
 function Contact() {
   function sendEmail(e) {
-    e.preventDefault();
+    e.preventDefault()
 
     emailjs
       .sendForm(
-        "service_hvielbl",
-        "template_jx2rpfn",
+        'service_hvielbl',
+        'template_jx2rpfn',
         e.target,
-        "user_Tl9V0BUgoVZYVuUAbt0Lo"
+        'user_Tl9V0BUgoVZYVuUAbt0Lo'
       )
       .then(
         (result) => {
-          console.log(result.text);
-          window.location.reload();
+          console.log(result.text)
+          window.location.reload()
           alert(
-            "Thank you for your message, I will get back to you as soon as I can"
-          );
+            'Thank you for your message, I will get back to you as soon as I can'
+          )
         },
         (error) => {
-          console.log(error.text);
-          alert("Error sending your message");
+          console.log(error.text)
+          alert('Error sending your message')
         }
-      );
+      )
   }
   return (
-    <div className="contact">
-      <div className="form-container">
+    <motion.div
+      exit={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      initial={{ opacity: 0 }}
+      className='contact'
+    >
+      <div className='form-container'>
         <h1>Contact me</h1>
         <form onSubmit={sendEmail}>
           <input
-            type="text"
-            className="form-input"
+            type='text'
+            className='form-input'
             required
-            placeholder="Name.."
-            name="from_name"
+            placeholder='Name..'
+            name='from_name'
           />
           <input
-            name="_replyto"
-            type="email"
-            className="form-input"
+            name='_replyto'
+            type='email'
+            className='form-input'
             required
-            placeholder="Email.."
+            placeholder='Email..'
           />
           <textarea
-            name="message"
-            cols="30"
-            className="form-textarea"
-            rows="10"
-            placeholder="Your message.."
+            name='message'
+            cols='30'
+            className='form-textarea'
+            rows='10'
+            placeholder='Your message..'
           ></textarea>
-          <button className="form-button" type="submit" value="Send">
+          <button className='form-button' type='submit' value='Send'>
             Send message
           </button>
         </form>
-        <div className="contact-icons"></div>
+        <div className='contact-icons'></div>
       </div>
-    </div>
-  );
+    </motion.div>
+  )
 }
 
-export default Contact;
+export default Contact
