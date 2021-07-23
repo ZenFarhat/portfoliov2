@@ -1,5 +1,5 @@
 .project {
-  width: 350px;
+  max-width: 350px;
   height: 250px;
   background-color: #1a1a1a;
   display: flex;
@@ -10,7 +10,8 @@
   border: 1px solid black;
   transition: 0.3s;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   margin: 10px 100px;
 }
 

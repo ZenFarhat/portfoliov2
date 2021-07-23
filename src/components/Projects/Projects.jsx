@@ -42,7 +42,7 @@ function Projects() {
       <Project
         title='Real Estate Website'
         img={realEstateProject}
-        desc='Front end for a real estate agency, implementing back-end soon'
+        desc='Front end for a real estate agency'
         deployment='https://realestatezf.web.app/'
         codeLink='https://github.com/ZenFarhat/realestate-project'
       />
